@@ -12,8 +12,12 @@ function calcularPromedio(array){
         suma+=array[i];
     }
     promNum=suma/(array.length);
-    return {suma,promNum};
+    return promNum;
     
 }
 let promNum=calcularPromedio(numeros);
-console.log(promNum);
+console.log("----------------------------------------------------");
+console.log("----------------- Prom of numbers ------------------");
+console.log("----------------------------------------------------");
+console.log("El promdio de la cadena",numeros," \nes: ",promNum);
+console.log("----------------------------------------------------");
