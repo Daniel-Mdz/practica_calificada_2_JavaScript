@@ -19,13 +19,6 @@ function contarVocales(cadena) {
     return contador;
 }
 
-<<<<<<< HEAD
 let cadena = "JavaScript es divertido";
 let resultado = contarVocales(cadena);
 console.log(`Número de vocales en la cadena: ${resultado}`);
-=======
-const cadena = "JavaScript es divertido";
-const resultado = contarVocales(cadena);
-
-console.log("Número de vocales en la cadena es ", resultado)
->>>>>>> EJE-3
