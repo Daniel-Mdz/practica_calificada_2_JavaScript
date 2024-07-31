@@ -21,4 +21,5 @@ function contarVocales(cadena) {
 
 const cadena = "JavaScript es divertido";
 const resultado = contarVocales(cadena);
-console.log(`Número de vocales en la cadena: ${resultado}`);
+
+console.log("Número de vocales en la cadena es ", resultado)
