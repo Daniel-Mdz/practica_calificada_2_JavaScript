@@ -4,3 +4,16 @@
 // devuelva el promedio de esos números. 
 // Llama a la función calcularPromedio con el array numeros y muestra el 
 // resultado en la consola.
+let numeros =[24,56,34,11,2,1,7,89,3,89];
+function calcularPromedio(array){
+    let promNum=0;
+    let suma=0;
+    for(let i=0;i<array.length;i++){
+        suma+=array[i];
+    }
+    promNum=suma/(array.length);
+    return {suma,promNum};
+    
+}
+let promNum=calcularPromedio(numeros);
+console.log(promNum);
