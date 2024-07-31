@@ -8,7 +8,7 @@
 
 function contarVocales(cadena) {
     let contador = 0;
-    const vocales = "aeiouAEIOU";
+    let vocales = "aeiouAEIOU";
     
     for (let i = 0; i < cadena.length; i++) {
         if (vocales.includes(cadena[i])) {
@@ -19,6 +19,6 @@ function contarVocales(cadena) {
     return contador;
 }
 
-const cadena = "JavaScript es divertido";
-const resultado = contarVocales(cadena);
+let cadena = "JavaScript es divertido";
+let resultado = contarVocales(cadena);
 console.log(`Número de vocales en la cadena: ${resultado}`);
