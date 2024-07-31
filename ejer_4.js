@@ -4,3 +4,14 @@
 // argumentos y devuelva un nuevo array que sea la concatenación de los dos. 
 // Llama a la función concatenarArrays con array1 y array2 y muestra el resultado 
 // en la consola.
+
+let array1 = [1, 2, 3, 4, 5];
+let array2 = [6, 7, 8, 9, 10];
+
+function concatenarArrays(arr1, arr2) {
+    return [...arr1, ...arr2];
+}
+
+let concatenado = concatenarArrays(array1, array2);
+
+console.log("Concatenado:", concatenado);
