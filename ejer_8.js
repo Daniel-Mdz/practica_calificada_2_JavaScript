@@ -14,4 +14,11 @@ function count(cadena, caracter) {
     return contador;
 }
 
-let array = ["Taller de JavaScript"]
+console.log("----------------------------------------------------------");
+console.log("----------------- Find Caracts ---------------------------");
+console.log("----------------------------------------------------------");
+let array = "Taller de JavaScript";
+let Find = "a"
+let resultado = count(array,Find);
+console.log(Find," aparece ",resultado," veces en la cadena: ",array);
+console.log("----------------------------------------------------------");
