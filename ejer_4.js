@@ -5,7 +5,10 @@
 // Llama a la función concatenarArrays con array1 y array2 y muestra el resultado 
 // en la consola.
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> EJE-4
 const array1 = [1, 2, 3, 4, 5];
 const array2 = [6, 7, 8, 9, 10];
 
@@ -15,4 +18,8 @@ function concatenarArrays(arr1, arr2) {
 
 const resultado = concatenarArrays(array1, array2);
 
+<<<<<<< HEAD
 console.log(resultado);
+=======
+console.log("El resultado es:",resultado);
+>>>>>>> EJE-4
